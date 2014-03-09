@@ -1,0 +1,23 @@
+{
+  "description": "Jira CLI App",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "flatiron": "0.3.11",
+    "pkginfo": "~0.3.0",
+    "flatiron-cli-config": "~0.1.4",
+    "prompt": "~0.2.12",
+    "restler": "~3.1.0"
+  },
+  "devDependencies": {
+    "cli-easy": "0.1.0",
+    "vows": "0.6.1"
+  },
+  "scripts": {
+    "test": "vows --spec",
+    "start": "node app.js"
+  },
+  "name": "simple-app",
+  "author": "Ace Oliver A. Anselmo",
+  "homepage": ""
+}
